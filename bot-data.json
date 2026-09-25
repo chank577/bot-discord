@@ -1,0 +1,177 @@
+{
+  "generatedAt": "2026-09-25T03:48:26.036Z",
+  "langMode": "both",
+  "sep": "｜",
+  "embedColor": 5793266,
+  "maxOpenTickets": 1,
+  "ticketWord": "ticket-tiket",
+  "roles": {
+    "owner": "1552889134220050513",
+    "admin": "1552889138863149056",
+    "moderator": "1552889144051769364",
+    "support": "1552889148749123594",
+    "developer": "1552889153266384897",
+    "seller": "1552889158068998164",
+    "vip": "1552889164372901938",
+    "buyer": "1552889169435562064",
+    "member": "1552889174464536671",
+    "lang_id": "1552889183348195369",
+    "lang_en": "1552889188121059329",
+    "ping_news": "1552889195050045520",
+    "ping_assets": "1552889199881883698",
+    "ping_giveaway": "1552889204130840654",
+    "muted": "1552889209184981042"
+  },
+  "channels": {
+    "welcome": "1552889219272147065",
+    "verify": "1552889223626096741",
+    "rules": "1552889229657382964",
+    "announce": "1552889237781876766",
+    "faq": "1552889242642948146",
+    "roles": "1552889247382503576",
+    "howto": "1552889257062834196",
+    "catalog": "1552889262675075114",
+    "request": "1552889268995887114",
+    "refund": "1552889273844506624",
+    "testi": "1552889278734794782",
+    "ticket": "1552889289107574794",
+    "payment": "1552889293834297366",
+    "status": "1552889298850811922",
+    "general": "1552889314180993065",
+    "chat_en": "1552889319268552737",
+    "chat_id": "1552889324360704030",
+    "showcase": "1552889329167110275",
+    "feedback": "1552889334057668688",
+    "media": "1552889340244529232",
+    "help": "1552889350843408424",
+    "bug": "1552889356098736150",
+    "vc1": "1552889366995804291",
+    "vc2": "1552889373601832970",
+    "vc_id": "1552889379163349064",
+    "vc_en": "1552889383604981784",
+    "staffchat": "1552889398465531935",
+    "txlog": "1552889403439845386",
+    "modlog": "1552889409530110002",
+    "ticketlog": "1552889414433374288",
+    "staffvc": "1552889419462213716"
+  },
+  "ticketCategoryId": "1552889304307474573",
+  "staffKeys": [
+    "owner",
+    "admin",
+    "moderator",
+    "support"
+  ],
+  "pings": [
+    {
+      "key": "news",
+      "emoji": "🔔",
+      "label": {
+        "en": "Announcements",
+        "id": "Pengumuman"
+      }
+    },
+    {
+      "key": "assets",
+      "emoji": "🛍️",
+      "label": {
+        "en": "New Assets",
+        "id": "Asset Baru"
+      }
+    },
+    {
+      "key": "giveaway",
+      "emoji": "🎁",
+      "label": {
+        "en": "Giveaways",
+        "id": "Giveaway"
+      }
+    }
+  ],
+  "buttons": {
+    "claim": "Claim / Ambil",
+    "close": "Close / Tutup"
+  },
+  "logTitles": {
+    "opened": "Ticket opened | Tiket dibuka",
+    "claimed": "Ticket claimed | Tiket diklaim",
+    "closed": "Ticket closed | Tiket ditutup"
+  },
+  "txt": {
+    "verified": {
+      "en": "✅ You are verified. Welcome aboard! Check out <#1552889247382503576> for language & notification roles.",
+      "id": "✅ Kamu sudah terverifikasi. Selamat datang! Cek <#1552889247382503576> untuk role bahasa & notifikasi."
+    },
+    "alreadyVerified": {
+      "en": "You are already verified.",
+      "id": "Kamu sudah terverifikasi."
+    },
+    "langSet": {
+      "en": "🇬🇧 Language set to **English**.",
+      "id": "🇮🇩 Bahasa diatur ke **Bahasa Indonesia**."
+    },
+    "noPermission": {
+      "en": "⛔ You do not have permission to do that.",
+      "id": "⛔ Kamu tidak punya izin untuk melakukan itu."
+    },
+    "closing": {
+      "en": "🔒 Closing this ticket in 5 seconds…",
+      "id": "🔒 Tiket ditutup dalam 5 detik…"
+    },
+    "error": {
+      "en": "⚠️ Something went wrong. Please try again or contact staff (the bot may lack permission to manage this role).",
+      "id": "⚠️ Terjadi kesalahan. Coba lagi atau hubungi staff (bot mungkin tidak punya izin mengelola role ini)."
+    },
+    "notReady": {
+      "en": "⚠️ This feature is not ready yet. Please contact staff.",
+      "id": "⚠️ Fitur ini belum siap. Silakan hubungi staff."
+    }
+  },
+  "ticketTypes": {
+    "order": {
+      "emoji": "🛒",
+      "embeds": [
+        {
+          "color": 3447003,
+          "title": "🇬🇧 🛒 Order Ticket",
+          "description": "Thanks for your interest! Please tell us:\n1. Asset name(s)\n2. Preferred payment method (see <#1552889293834297366>)\n3. Your Roblox username\n\nA staff member will reply shortly."
+        },
+        {
+          "color": 15158332,
+          "title": "🇮🇩 🛒 Tiket Pesan",
+          "description": "Terima kasih atas ketertarikanmu! Mohon sebutkan:\n1. Nama asset\n2. Metode pembayaran yang dipilih (lihat <#1552889293834297366>)\n3. Username Roblox kamu\n\nStaff akan segera membalas."
+        }
+      ]
+    },
+    "support": {
+      "emoji": "🛠️",
+      "embeds": [
+        {
+          "color": 3447003,
+          "title": "🇬🇧 🛠️ Support Ticket",
+          "description": "Please describe your problem and include:\n• Asset name\n• What happened vs. what you expected\n• Screenshot, video or Output logs\n\nA staff member will reply shortly."
+        },
+        {
+          "color": 15158332,
+          "title": "🇮🇩 🛠️ Tiket Bantuan",
+          "description": "Jelaskan masalahmu dan sertakan:\n• Nama asset\n• Yang terjadi vs. yang diharapkan\n• Screenshot, video, atau log Output\n\nStaff akan segera membalas."
+        }
+      ]
+    },
+    "report": {
+      "emoji": "🚨",
+      "embeds": [
+        {
+          "color": 3447003,
+          "title": "🇬🇧 🚨 Report Ticket",
+          "description": "Please describe what happened, who is involved and attach evidence (screenshots, links). Your report is only visible to staff."
+        },
+        {
+          "color": 15158332,
+          "title": "🇮🇩 🚨 Tiket Laporan",
+          "description": "Jelaskan apa yang terjadi, siapa yang terlibat, dan lampirkan bukti (screenshot, link). Laporanmu hanya terlihat oleh staff."
+        }
+      ]
+    }
+  }
+}
