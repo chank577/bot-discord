@@ -7,9 +7,7 @@
 //   DISCORD_PUBLIC_KEY  Public Key aplikasi (Developer Portal → General Information)
 import { verifyKey } from 'discord-interactions';
 import { waitUntil } from '@vercel/functions';
-import { createRequire } from 'node:module';
-
-const data = createRequire(import.meta.url)('../bot-data.json');
+import data from '../bot-data.mjs';
 
 const API = 'https://discord.com/api/v10';
 const EPHEMERAL = 64;
